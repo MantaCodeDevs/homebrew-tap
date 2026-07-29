@@ -20,7 +20,8 @@ class Mna < Formula
   end
 
   def install
-    bin.install "mna"
+    binary = Dir["mna-*"].first
+    bin.install binary => "mna"
   end
 
   test do
