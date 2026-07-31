@@ -1,22 +1,22 @@
 class Mna < Formula
   desc "Command-line client for My Next Adventure trip planning"
   homepage "https://github.com/MantaCodeDevs/mna-cli"
-  version "0.1.2"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/MantaCodeDevs/mna-cli/releases/download/v0.1.2/mna-darwin-arm64.tar.gz"
-      sha256 "a2baad5a3ddc779e0a2d9ad1cf67a1a1456b22e9066faa4991d49177b65f06e8"
+      url "https://github.com/MantaCodeDevs/mna-cli/releases/download/v0.2.0/mna-darwin-arm64.tar.gz"
+      sha256 "aad056a2ba62725d68080f9a1798ca3c82b16915e07683cec9039af45d3791f7"
     else
-      url "https://github.com/MantaCodeDevs/mna-cli/releases/download/v0.1.2/mna-darwin-x64.tar.gz"
-      sha256 "409890f5724c13976b219047fde44ab5c5016d2401b57e9dcc59a9fed58a155a"
+      url "https://github.com/MantaCodeDevs/mna-cli/releases/download/v0.2.0/mna-darwin-x64.tar.gz"
+      sha256 "bf860b058ee413c29e2eebc00ea49db40976ec1b94e6e9385cdbee98dbaf437c"
     end
   end
 
   on_linux do
-    url "https://github.com/MantaCodeDevs/mna-cli/releases/download/v0.1.2/mna-linux-x64.tar.gz"
-    sha256 "124a24900e0606c4c5ee22ab777dc5ebc88bf240e739d8ba63066b4fab6928a9"
+    url "https://github.com/MantaCodeDevs/mna-cli/releases/download/v0.2.0/mna-linux-x64.tar.gz"
+    sha256 "0bd47d226e9570753d2ae4de1daa339be2e053572e1172161cd1ef304238e696"
   end
 
   def install
